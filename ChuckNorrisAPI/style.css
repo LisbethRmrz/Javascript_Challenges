@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,400i,700");
+
+body{
+  background: #FFF0E6;
+  font-family: Inconsolata;
+}
+
+section.main{
+  background: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.chuckImage{
+  width: 200px;
+}
+
+.jokeContainer{
+  background: inherit;
+  margin-top: 2%;
+  width: 70%;
+  height: 60%;
+  display: flex;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 3px 3px 2px #D5DBDB;
+}
+
+.jokeParagraph{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#getJoke {
+  margin-top: 2%;
+  background-image: linear-gradient(to bottom, #FF6700, #FFB380);
+  border-radius: 28px;
+  font-family: inherit;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+}
+
+#getJoke:hover {
+  background-image: linear-gradient(to bottom, #FFB380, #FF6700);
+}
